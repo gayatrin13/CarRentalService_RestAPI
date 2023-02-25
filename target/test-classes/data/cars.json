@@ -1,0 +1,130 @@
+{
+  "Car": [
+    {
+      "make": "Audi",
+      "model": "A7",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Black",
+        "Notes": "Scratches on the front side of the car"
+      },
+      "perdayrent": {
+        "Price": 140,
+        "Discount": 15
+      },
+      "metrics": {
+        "yoymaintenancecost": 2190.76,
+        "depreciation": 2256.43,
+        "rentalcount": {
+          "lastweek": 4,
+          "yeartodate": 221
+        }
+      }
+    },
+    {
+      "make": "Tesla",
+      "model": "X",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Blue",
+        "Notes": "Right mirror Scratches"
+      },
+      "perdayrent": {
+        "Price": 200,
+        "Discount": 20
+      },
+      "metrics": {
+        "yoymaintenancecost": 2590.76,
+        "depreciation": 2356.43,
+        "rentalcount": {
+          "lastweek": 4,
+          "yeartodate": 150
+        }
+      }
+    },
+    {
+      "make": "Honda",
+      "model": "Accord",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Gray",
+        "Notes": "scratch on the right side of the car"
+      },
+      "perdayrent": {
+        "Price": 100,
+        "Discount": 15
+      },
+      "metrics": {
+        "yoymaintenancecost": 1500.00,
+        "depreciation": 1000.90,
+        "rentalcount": {
+          "lastweek": 6,
+          "yeartodate": 275
+        }
+      }
+    },
+    {
+      "make": "Ferrari",
+      "model": "X",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Red",
+        "Notes": "All neat and clean without any denture"
+      },
+      "perdayrent": {
+        "Price": 400,
+        "Discount": 50
+      },
+      "metrics": {
+        "yoymaintenancecost": 3000.76,
+        "depreciation": 2900.43,
+        "rentalcount": {
+          "lastweek":1,
+          "yeartodate": 75
+        }
+      }
+    },
+	{
+      "make": "Tesla",
+      "model": "Y",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Blue",
+        "Notes": "Scratches on the front glass"
+      },
+      "perdayrent": {
+        "Price": 200,
+        "Discount": 20
+      },
+      "metrics": {
+        "yoymaintenancecost": 2590.76,
+        "depreciation": 2356.43,
+        "rentalcount": {
+          "lastweek": 3,
+          "yeartodate": 190
+        }
+      }
+    },
+	{
+      "make": "Kia",
+      "model": "A7",
+      "vin": "09AGHY64352JITEG98K",
+      "metadata": {
+        "Color": "Blue",
+        "Notes": "dent on the left side of the car"
+      },
+      "perdayrent": {
+        "Price": 120,
+        "Discount": 40
+      },
+      "metrics": {
+        "yoymaintenancecost": 2590.76,
+        "depreciation": 2356.43,
+        "rentalcount": {
+          "lastweek": 5,
+          "yeartodate": 265
+        }
+      }
+    }
+  ]
+}
