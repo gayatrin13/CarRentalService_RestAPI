@@ -22,8 +22,8 @@ public class Car {
 	@Override
 	public String toString() {
 		// TODO Auto-generated method stub
-		return "make: " + make + " model :" + model + "\n metadata>> color: " + metadata.Color + " Notes: "
-				+ metadata.Notes + "\nPerDayREntal >>  Price:" + perdayrent.Price + " PerDayRental Discount : "
+		return "\n Make: " + make + " model :" + model + "\n Metadata >> color: " + metadata.Color + " Notes: "
+				+ metadata.Notes + "\n PerDayREntal >>  Price:" + perdayrent.Price + " PerDayRental Discount : "
 				+ perdayrent.Discount + "\n Metrics >>  yoymaintenancecost " + metrics.yoymaintenancecost
 				+ " depreciation: " + metrics.depreciation + " \n Rental Counts  >> lastweek : "
 				+ metrics.rentalcount.lastweek + " yeartodate :" + metrics.rentalcount.yeartodate;

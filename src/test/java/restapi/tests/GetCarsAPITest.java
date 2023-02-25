@@ -38,14 +38,14 @@ public class GetCarsAPITest extends TestBase {
 
 	}
 
-	public Car getLowestRentalCars() {
+	@Test
+	public void getLowestRentalCars() {
 		System.out.println("***** get Lowest Rental Cars()**************");
 
 		List<Car> lowestRentCars = Arrays.asList(res.getBody().as(Car[].class));
 		Car lowestRentalCarBasedOnPrice = lowestRentCars.stream()
 				.collect(Collectors.minBy((x, y) -> x.getPerdayrent().getPrice() - y.getPerdayrent().getPrice())).get();
-		System.out.println(
-				"*******Lowest Rental Car Based On Price *********\n " + lowestRentalCarBasedOnPrice.toString());
+		System.out.println("Lowest Rental Car Based On Price :" + lowestRentalCarBasedOnPrice.toString());
 
 		Car lowestRentalCarBasedOnDiscount = lowestRentCars.stream()
 				.collect(
@@ -56,11 +56,12 @@ public class GetCarsAPITest extends TestBase {
 				.get();
 		System.out.println(
 				"*********Lowest Rental Car Based On Discount ********\n" + lowestRentalCarBasedOnDiscount.toString());
-		return lowestRentalCarBasedOnDiscount;
+//		return lowestRentalCarBasedOnDiscount;
 
 	}
 
-	public Car highestRevenueCar() {
+	@Test
+	public void highestRevenueCar() {
 		System.out.println("******Print highest Revenue Car************");
 
 		List<Car> allCars = Arrays.asList(res.getBody().as(Car[].class));
@@ -78,7 +79,7 @@ public class GetCarsAPITest extends TestBase {
 		for (Map.Entry<Car, Double> entry : carWithProfits.entrySet()) {
 			Car key = entry.getKey();
 			double profit = entry.getValue();
-			System.out.println("Car :  " + key.make + " profit :  " + profit);
+//			System.out.println("Car :  " + key.make + " profit :  " + profit);
 
 			if (profit > max) {
 				max = profit;
@@ -88,7 +89,7 @@ public class GetCarsAPITest extends TestBase {
 			}
 		}
 		System.out.println("Most profited car : " + mostProfitCar);
-		return mostProfitCar;
+//		return mostProfitCar;
 	}
 
 	@Test

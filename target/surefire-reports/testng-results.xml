@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-02-24T16:07:13 PST" name="Suite" finished-at="2023-02-24T16:07:14 PST" duration-ms="1309">
+  <suite started-at="2023-02-24T16:20:12 PST" name="Suite" finished-at="2023-02-24T16:20:13 PST" duration-ms="1188">
     <groups>
     </groups>
-    <test started-at="2023-02-24T16:07:13 PST" name="Test" finished-at="2023-02-24T16:07:14 PST" duration-ms="1309">
+    <test started-at="2023-02-24T16:20:12 PST" name="Test" finished-at="2023-02-24T16:20:13 PST" duration-ms="1188">
       <class name="restapi.tests.GetCarsAPITest">
-        <test-method signature="getCarsAPITest()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:07:13 PST" name="getCarsAPITest" finished-at="2023-02-24T16:07:14 PST" duration-ms="1002" status="PASS">
+        <test-method signature="getCarsAPITest()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:20:12 PST" name="getCarsAPITest" finished-at="2023-02-24T16:20:13 PST" duration-ms="909" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getCarsAPITest -->
-        <test-method signature="printCars()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:07:14 PST" name="printCars" finished-at="2023-02-24T16:07:14 PST" duration-ms="269" status="PASS">
+        <test-method signature="printCars()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:20:13 PST" name="printCars" finished-at="2023-02-24T16:20:13 PST" duration-ms="244" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printCars -->
-        <test-method signature="validateContentEncoding()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:07:14 PST" name="validateContentEncoding" finished-at="2023-02-24T16:07:14 PST" duration-ms="2" status="PASS">
+        <test-method signature="validateContentEncoding()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:20:13 PST" name="validateContentEncoding" finished-at="2023-02-24T16:20:13 PST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContentEncoding -->
-        <test-method signature="validateContentType()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:07:14 PST" name="validateContentType" finished-at="2023-02-24T16:07:14 PST" duration-ms="0" status="PASS">
+        <test-method signature="validateContentType()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:20:13 PST" name="validateContentType" finished-at="2023-02-24T16:20:13 PST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateContentType -->
-        <test-method signature="validateStatusCode()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:07:14 PST" name="validateStatusCode" finished-at="2023-02-24T16:07:14 PST" duration-ms="1" status="PASS">
+        <test-method signature="validateStatusCode()[pri:0, instance:restapi.tests.GetCarsAPITest@4c1f22f3]" started-at="2023-02-24T16:20:13 PST" name="validateStatusCode" finished-at="2023-02-24T16:20:13 PST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateStatusCode -->
